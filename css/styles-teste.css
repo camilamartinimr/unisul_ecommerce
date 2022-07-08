@@ -1,0 +1,99 @@
+body {
+   
+  min-height: 1000px;
+  padding-top: 169px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;  
+}
+
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+   color: #EEE;
+   font-weight: bold; 
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+   color: #00923F;
+   font-weight: bold; 
+}
+.fone a{
+  color: #EEE;
+  font-weight: bold;    
+}
+
+.fone a:hover{
+  color: #00923F;
+  font-weight: bold;
+  text-decoration: none;
+     
+}
+
+h1, h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+h2{
+    
+    font-size: 19px; 
+}
+
+
+
+
+i{
+    font-size: 1em;
+    padding-right: 0.5em;
+}
+
+
+
+
+
+
+
+ #logo{
+    transition: 0.7s;
+}
+
+
+.card{
+height: 25rem; 
+margin-bottom: 1rem;
+ 
+}
+.contato{
+    color: #EEE;
+    height: 700px;
+    background-image: url(../img/bg-brocas-verde.jpg);
+    background-repeat: no-repeat; 
+    
+}
+
+.sobre{
+     color: #EEE;
+    height: 500px;
+    background-image: url(../img/bg-brocas-vemelho.jpg);
+    background-repeat: no-repeat; 
+    
+}
+
+@media (max-width: 992px) { 
+
+  .logo{
+    height: 700px;
+  /*  background-image: url(../img/bg-construction-sm.jpg);
+      background-repeat: no-repeat;  */}
+
+  .card{
+      height: 40rem;
+      margin-bottom: 2rem;
+    }  
+
+}
+

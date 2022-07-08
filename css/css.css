@@ -1,0 +1,111 @@
+
+body{
+    min-height: 1000px;
+    padding-top: 170px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13pt;
+}
+p{
+   margin-bottom: 0rem; 
+}
+
+a{
+    color: dimgray;
+    font-size: 12pt;
+}
+
+a:hover, a:active{
+    text-decoration: none;
+    color: deeppink;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding-left: 0rem;
+    padding-right: 2rem;
+}
+.navbar{
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+.deeppink{
+    color: deeppink;
+    font-weight: bolder;
+}
+i{
+    color: deeppink;
+}
+i.sacola{
+    font-size: 2.3rem;
+    position: absolute;
+    z-index: -1;
+}
+
+#logo{
+    transition: 0.5s;
+}
+
+.navbar{
+    padding-left: 0rem;
+} 
+
+
+.tachado{
+    color: darkgray;
+    text-decoration-line: line-through;  
+}
+.parcelamento{
+    color: darkgray;
+    
+}
+
+.comprar{
+    background-color: deeppink;
+    width: 15rem; 
+    height: 3rem;
+    font-weight: bolder;
+
+}
+.comprar:hover,  comprar:active{
+    background-color: hotpink;
+}
+
+.hotpink{
+    background-color: hotpink;
+}
+
+.numitens{
+    width: 5rem;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    
+    padding-left: 0.6rem;
+    
+}
+
+
+.frete{
+    background-color: white;
+    width: 10rem;
+    
+}
+
+
+.variacao{
+    background-color: white;
+    width: 5rem;
+    
+}
+
+.aviso {
+    position: fixed;
+    top: 85%;
+    left: 85%;
+    padding: 10px;
+    margin-left: 10px;
+    z-index: 10000000;
+    
+}
+
+footer {
+    background-color: #000;
+}
